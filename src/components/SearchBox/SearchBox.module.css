@@ -3,13 +3,15 @@
 }
 .container p {
   margin: 0;
+  font-size: 18px;
+  font-weight: bold;
 }
 .input {
   box-sizing: border-box;
   border: 2px solid #959494;
   border-radius: 5px;
-  width: 250px;
-  height: 20px;
+  width: 350px;
+  height: 30px;
   padding: 10px;
 }
 .container input:focus,

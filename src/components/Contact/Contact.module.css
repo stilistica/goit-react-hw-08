@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 15px;
-  width: 250px;
+  width: 375px;
   border: 2px solid black;
   border-radius: 5px;
   gap: 10px;
@@ -11,16 +11,27 @@
 
 .info p {
   margin: 0;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-size: 16px;
+}
+.buttons {
+  display: flex;
+  gap: 5px;
 }
 .btn {
   cursor: pointer;
   padding: 5px 10px;
   /*height: 35px;*/
   /*width: 80px;*/
-  background-color: white;
+  background-color: #b038dc;
   border-radius: 5px;
+  color: white;
+  /*font-weight: bold;*/
 }
 .btn:hover,
 .btn:focus {
-  background-color: #c1c1c1;
+  background-color: #61dc38;
 }
+

@@ -1,0 +1,15 @@
+.btn {
+    cursor: pointer;
+    padding: 15px 30px;
+    /*height: 35px;*/
+    /*width: 80px;*/
+    background-color: #b038dc;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.btn:hover,
+.btn:focus {
+    background-color: #61dc38;
+}

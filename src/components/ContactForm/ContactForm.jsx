@@ -3,7 +3,8 @@ import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import { useId } from "react";
 import { useDispatch } from "react-redux";
-import { addContact } from "../../redux/contactsOps.js";
+import { addContact } from "../../redux/contacts/operations.js";
+import toast from "react-hot-toast";
 
 const FeedbackSchema = Yup.object().shape({
   contactName: Yup.string()
@@ -31,6 +32,7 @@ export default function ContactForm() {
         number: values.number,
       })
     );
+    toast.success('Contact added successfully');
 
     actions.resetForm();
   };
